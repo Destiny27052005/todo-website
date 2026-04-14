@@ -9,7 +9,7 @@ function ProfileCard() {
                     <img src="" alt="" />
                 </figure>
                 <h2 data-testid="test-user-name">Adekunle Oluwatobiloba Destiny</h2>
-                <p data-testid="test-user-bio"></p>
+                <p data-testid="test-user-bio">Frontend Developer & Engineering Student | Turning ideas into web reality| Solving probems with code and logic.</p>
                 <p data-testid="test-user-time">{ }</p>
                 <section>
                     <h3>Hobbies</h3>
