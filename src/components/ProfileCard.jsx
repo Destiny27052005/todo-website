@@ -6,7 +6,7 @@ function ProfileCard() {
         <>
             <article data-testid="test-profile-card">
                 <figure>
-                    <img src="" alt="" />
+                    <img src="" alt="User Avatar" />
                 </figure>
                 <h2 data-testid="test-user-name">Adekunle Oluwatobiloba Destiny</h2>
                 <p data-testid="test-user-bio">Frontend Developer & Engineering Student | Turning ideas into web reality| Solving probems with code and logic.</p>
@@ -15,16 +15,16 @@ function ProfileCard() {
                     <h3>Hobbies</h3>
                     <ul data-testid="test-user-hobbies">
                         <li data-testid="test-user-hobbies-reading">Reading</li>
-                        <li>Coding</li>
-                        <li>Listening to musics</li>
+                        <li data-testid="test-user-hobbies-coding">Coding</li>
+                        <li data-testid="test-user-hobbies-music">Listening to musics</li>
                     </ul>
                 </section>
                 <section>
                     <h3>Dislike</h3>
                     <ul data-testid="test-user-deslikes">
-                        <li></li>
-                        <li></li>
-                        <li></li>
+                        <li data-testid="test-user-deslikes-"></li>
+                        <li data-testid="test-user-deslikes-"></li>
+                        <li data-testid="test-user-deslikes-"></li>
                     </ul>
                 </section>
 
