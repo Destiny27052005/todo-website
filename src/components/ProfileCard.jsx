@@ -12,7 +12,7 @@ function ProfileCard() {
         <>
             <article data-testid="test-profile-card">
                 <figure>
-                    <img src="" alt="User Avatar" />
+                    <img src="https://photos.app.goo.gl/u15utF9uvLLKidsN6" alt="User Avatar" />
                 </figure>
                 <h2 data-testid="test-user-name">Adekunle Oluwatobiloba Destiny</h2>
                 <p data-testid="test-user-bio">Frontend Developer & Engineering Student | Turning ideas into web reality| Solving probems with code and logic.</p>
