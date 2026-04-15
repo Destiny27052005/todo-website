@@ -18,7 +18,7 @@ function ProfileCard() {
                     <img src="https://avatars.githubusercontent.com/u/146554573?s=400&u=4ed67a2689c120eba19373d04046ff0345f56777&v=4" alt="User Avatar" className="rounded-full w-48 flex justify-self-center border-2 border-[#3d82f6]" />
                 </figure>
                 <h2 className="text-white font-bold text-lg" data-testid="test-user-name">Adekunle Oluwatobiloba Destiny</h2>
-                <p className="text-[#9ca3af]" data-testid="test-user-bio">Frontend Developer & Engineering Student | Turning ideas into web reality| Solving probems with code and logic.</p>
+                <p className="text-[#9ca3af]" data-testid="test-user-bio">Frontend Developer & Engineering Student🇳🇬 | Turning ideas into web reality| Solving probems with code and logic.</p>
                 <p className="text-[#9ca3af]" data-testid="test-user-time" aria-live="polite">Current Time: {time}</p>
                 <section className="text-[#9ca3af]">
                     <h3 className="underline-offset-2 underline text-white">Hobbies</h3>
