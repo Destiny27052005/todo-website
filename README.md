@@ -40,11 +40,11 @@ Ensure you have **Node.js** installed. You can verify this by typing `node -v` i
 ### 2. Clone the Repository
 Open your terminal and run the following command:
 ```bash
-git clone [https://github.com/yourusername/your-repo-name.git](https://github.com/yourusername/your-repo-name.git)
+git clone [https://github.com/Destiny27052005/profile-card-website.git](https://github.com/Destiny27052005/profile-card-website.git)
 
 ## cd your-repo-name
 ```bash
-cd your-repo-name
+cd profile-card-website
 
 ## Install Dependencies
 This will install all the necessary packages (like React and Tailwind) listed in the package.json file:
