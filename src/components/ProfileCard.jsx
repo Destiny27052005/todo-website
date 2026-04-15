@@ -1,6 +1,7 @@
 import { } from "lucide-react";
 import { useState, useEffect } from "react";
 import { FaGithub, FaLinkedin, FaTiktok } from "react-icons/fa";
+import { GiNigeria } from "react-icons/gi";
 
 function ProfileCard() {
     const [time, setTime] = useState(Date.now());
@@ -12,13 +13,13 @@ function ProfileCard() {
 
     return (
         <>
-            <article className="bg-[#1f1f1f] w-80 rounded-2xl p-4 space-y-2" data-testid="test-profile-card">
+            <article className="bg-[#1f1f1f] w-80 rounded-2xl p-4 space-y-2 shadow-lg" data-testid="test-profile-card">
                 <figure>
-                    <img src="https://photos.app.goo.gl/u15utF9uvLLKidsN6" alt="User Avatar" className="rounded-full w-50 " />
+                    <img src="https://avatars.githubusercontent.com/u/146554573?s=400&u=4ed67a2689c120eba19373d04046ff0345f56777&v=4" alt="User Avatar" className="rounded-full w-48 flex justify-self-center border-2 border-[#3d82f6]" />
                 </figure>
-                <h2 className="text-white font-bold" data-testid="test-user-name">Adekunle Oluwatobiloba Destiny</h2>
+                <h2 className="text-white font-bold text-lg" data-testid="test-user-name">Adekunle Oluwatobiloba Destiny</h2>
                 <p className="text-[#9ca3af]" data-testid="test-user-bio">Frontend Developer & Engineering Student | Turning ideas into web reality| Solving probems with code and logic.</p>
-                <p className="text-[#9ca3af]" data-testid="test-user-time">Current Time: {time}</p>
+                <p className="text-[#9ca3af]" data-testid="test-user-time" aria-live="polite">Current Time: {time}</p>
                 <section className="text-[#9ca3af]">
                     <h3 className="underline-offset-2 underline text-white">Hobbies</h3>
                     <ul data-testid="test-user-hobbies">
