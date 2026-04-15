@@ -13,7 +13,7 @@ function ProfileCard() {
 
     return (
         <>
-            <article className="bg-[#1f1f1f] w-80 rounded-2xl p-4 space-y-2 shadow-lg" data-testid="test-profile-card">
+            <article className="bg-[#1f1f1f] w-80 rounded-2xl p-4 space-y-2 shadow-lg border border-[#3d82f6]" data-testid="test-profile-card">
                 <figure>
                     <img src="https://avatars.githubusercontent.com/u/146554573?s=400&u=4ed67a2689c120eba19373d04046ff0345f56777&v=4" alt="User Avatar" className="rounded-full w-48 flex justify-self-center border-2 border-[#3d82f6]" />
                 </figure>
@@ -22,16 +22,16 @@ function ProfileCard() {
                 <p className="text-[#9ca3af]" data-testid="test-user-time" aria-live="polite">Current Time: {time}</p>
                 <section className="text-[#9ca3af]">
                     <h3 className="underline-offset-2 underline text-white">Hobbies</h3>
-                    <ul data-testid="test-user-hobbies">
-                        <li data-testid="test-user-hobbies-reading">Reading</li>
-                        <li data-testid="test-user-hobbies-coding">Coding</li>
-                        <li data-testid="test-user-hobbies-music">Listening to musics</li>
+                    <ul className="grid grid-cols-2 space-x-1.5 space-y-2 mt-2" data-testid="test-user-hobbies">
+                        <li className="rounded-2xl px-1.5 border text-center" data-testid="test-user-hobbies-reading">Reading</li>
+                        <li className="rounded-2xl px-1.5 border text-center" data-testid="test-user-hobbies-coding">Coding</li>
+                        <li className="rounded-2xl px-1.5 border col-span-2 w-fit" data-testid="test-user-hobbies-music">Listening to musics</li>
                     </ul>
                 </section>
-                <section className="text-[#9ca3af]">
+                <section className="text-[#9ca3af] border-b border-[#3d82f6] my-4 pb-4">
                     <h3 className="underline-offset-2 underline text-white">Dislike</h3>
-                    <ul data-testid="test-user-deslikes">
-                        <li data-testid="test-user-deslikes-noise">Noise</li>
+                    <ul className="grid grid-cols-2 space-x-1.5 space-y-2 my-2" data-testid="test-user-deslikes">
+                        <li className="rounded-2xl px-1.5 border text-center" data-testid="test-user-deslikes-noise">Noise</li>
                     </ul>
                 </section>
 
